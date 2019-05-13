@@ -1,0 +1,28 @@
+{
+    "name": "onix-vidatec",
+    "version": "1.0.0",
+    "main": "lib/index.js",
+    "author": "Vi-datec",
+    "description": "Library to parse and generate ONIX XML files",
+    "bugs": "",
+    "license": "Apache-2.0",
+    "engines": {
+        "node": ">=0.6"
+    },
+    "dependencies": {
+        "lodash": "^3.9.3",
+        "xml-schema": "2.2.0",
+        "subjects-utils": "0.0.1"
+    },
+    "devDependencies": {
+        "mocha": "2.2.1",
+        "should": "5.2.0"
+    },
+    "scripts": {
+        "test": "node_modules/.bin/mocha --reporter spec --timeout 15000"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/juanariaswayne/onix-vidatec.git"
+    }
+}
